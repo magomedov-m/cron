@@ -17,7 +17,6 @@
 }
 
 .header {
-  border: 1px black solid;
   width: 1188px;
   height: 480px;
   margin: 55px auto 95px;
@@ -128,7 +127,7 @@
   margin: 55px auto;
   width: 1186px;
   height: 547px;
-  border: 1px black solid;
+  margin-bottom: 100px;
 }
 
 .system-hero-block__title {
@@ -240,6 +239,15 @@
   color: #ffffff;
 }
 
+.target-audience__block-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
 .info-block {
   text-align: left;
   margin-bottom: 24px;
@@ -263,4 +271,99 @@
 
 .info-block ul {
   margin-left: 20px;
+}
+
+/* ----------------------- */
+
+.opportunities-block {
+  border-radius: 12px;
+  position: relative;
+  background: #fbfbfb;
+  width: 1186px;
+  height: 442px;
+  margin: 0 auto;
+}
+
+.opportunities-block__item1 {
+  position: absolute;
+  width: 434px;
+  height: 311px;
+  margin-top: 66px;
+  margin-left: 83px;
+  gap: 30px;
+}
+
+.opportunities-block__item1-header-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.opportunities-block__item1-header-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #1919195c;
+  margin-bottom: 30px;
+}
+
+.registratioin__item-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 434px;
+  height: 89px;
+}
+
+.registratioin__item-form-input {
+  width: 178px;
+  height: 20px;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.registratioin__item-form-button {
+  width: 154px;
+  height: 40px;
+  padding: 8px 36px 8px 36px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #1672ec;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.registratioin__item-form-input-email {
+  width: 402px;
+  height: 20px;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.opportunities-block__item2-image {
+  width: 611px;
+  height: 305.5px;
+  margin-top: 68px;
+  margin-left: 533px;
 }

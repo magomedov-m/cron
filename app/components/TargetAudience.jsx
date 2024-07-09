@@ -3,7 +3,7 @@ import React from "react";
 export default function TargetAudience() {
   return (
     <div className="target-audience">
-      <div className="target-audience__title">Кому подойдет Битрикс24</div>
+      <div className="target-audience__block-title">Кому подойдет Битрикс24</div>
       <div className="target-audience__items">
         <div className="target-audience__item">
           <div className="target-audience__cap">
