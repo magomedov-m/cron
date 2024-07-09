@@ -3,37 +3,44 @@
   padding: 0;
 }
 
-body {
+.container {
+  width: 1440px;
+  height: 3543px;
+  border: 1px red solid;
+}
+
+.container-block {
+  width: 1296px;
+  height: 3541px;
   background: #005893;
+  border: 1px rgb(21, 182, 6) solid;
 }
 
 .header {
-  display: flex;
   border: 1px black solid;
-  width: 1186px;
+  width: 1188px;
   height: 480px;
-}
-
-.container {
-  width: 1440px;
-  height: 1500px;
-  border: 1px red solid;
+  margin: 55px auto 95px;
 }
 
 .logo {
   width: 194px;
   height: 34.5px;
+  margin-bottom: 60px; 
 }
 
-.price-img {
-  width: 652px;
+.media-block {
+  width: 1186px;
   height: 385px;
+  position: relative;
 }
 
 .textButtonBox {
+  position: absolute;
+  margin-top: 40px;
   width: 530px;
-  margin-top: 100px;
-  margin-left: -190px;
+  height: 305px;
+  color: white;
 }
 .presents-text {
   font-family: Gilroy;
@@ -42,16 +49,22 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 44px;
+  margin-bottom: 20px;
   text-align: left;
 }
 .media-block__text p {
-  width: 530px;
+  width: 580px;
   height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 50px;
 }
 
-.media-block {
-  width: 1186px;
+.price-img {
+  position: absolute;
+  width: 652px;
   height: 385px;
+  margin-left: 546px;
 }
 
 .button-order {
@@ -62,7 +75,55 @@ body {
   border-radius: 4px;
   padding: 16px 48px 16px 48px;
   color: white;
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
+}
+/* ----------------------- */
+
+.benefits-block {
+  width: 1186px;
+  height: 165px;
+  margin: 55px auto;
+}
+
+.reason-text {
+  font-size: 28px;
+  font-weight: 700;
   text-align: center;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.benefits-items {
+  display: flex;
+  width: 1186px;
+  height: 100px;
+}
+.left {
+  border-radius: 15px 0 0 15px;
+}
+.right {
+  border-radius: 0 15px 15px 0;
+}
+
+.benefits-items__item {
+  display: flex;
+  width: 296px;
+  align-items: center;
+  border: 1px solid #FFFFFF63;
+  background: #FFFFFF63;
+  color: #ffffff;
+}
+
+.benefits-items__item p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* ------------------------------- */
+
+.features-section {
+  margin: 0 auto;
 }
