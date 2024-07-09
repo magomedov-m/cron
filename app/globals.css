@@ -182,3 +182,24 @@
   margin-top: -366px;
   margin-left: 583px;
 }
+
+/* ------------------------- */
+ 
+.target-audience {
+  width: 1186px;
+  height: 518px;
+  margin: 55px auto;
+  text-align: center;
+}
+
+.target-audience__items {
+  display: flex;
+  justify-content: space-between;
+  width: 1186px;
+  height: 442px;
+}
+
+.target-audience__item {
+  width: 354px;
+  height: 442px;
+}
