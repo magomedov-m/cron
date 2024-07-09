@@ -113,6 +113,12 @@
   border: 1px solid #ffffff63;
   background: #ffffff63;
   color: #ffffff;
+  transition: 0.6s;
+}
+
+.benefits-items__item:hover {
+  background: #DBF7FF;
+  color: #005893;
 }
 
 .benefits-items__item p {
