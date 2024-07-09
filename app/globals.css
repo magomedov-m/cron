@@ -9,7 +9,6 @@ body {
 
 .header {
   display: flex;
-  /* align-items: center; */
   border: 1px black solid;
   width: 1186px;
   height: 480px;
@@ -29,13 +28,12 @@ body {
 .price-img {
   width: 652px;
   height: 385px;
-  margin-left: 500px;
 }
 
 .textButtonBox {
   width: 530px;
   margin-top: 100px;
-  margin-left: -200px;
+  margin-left: -190px;
 }
 .presents-text {
   font-family: Gilroy;
@@ -49,6 +47,11 @@ body {
 .media-block__text p {
   width: 530px;
   height: 48px;
+}
+
+.media-block {
+  width: 1186px;
+  height: 385px;
 }
 
 .button-order {
