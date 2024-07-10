@@ -5,16 +5,33 @@ import FeaturesSection from "./FeaturesSection";
 import TargetAudience from "./TargetAudience";
 import Opportunities from "./Opportunities";
 import Dropdown from "./Dropdown";
+import FAQBlock from "./FAQBlock";
+import Nav from "./Nav";
 
 export default function ContainerBlock() {
   return (
-    <div className="container-block">
-      <Header />
-      <BenefitsBlock />
-      <FeaturesSection />
-      <TargetAudience />
-      <Opportunities />
-      <Dropdown />
-    </div>
+    <>
+      <Nav />
+      <main className="container-block">
+        <header>
+          <Header />
+        </header>
+        <section>
+          <BenefitsBlock />
+        </section>
+        <section>
+          <FeaturesSection />
+        </section>
+        <section>
+          <TargetAudience />
+        </section>
+        <section>
+          <Opportunities />
+        </section>
+        <section>
+          <FAQBlock />
+        </section>
+      </main>
+    </>
   );
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function TargetAudience() {
   return (
-    <div className="target-audience">
-      <div className="target-audience__block-title">Кому подойдет Битрикс24</div>
+    <section className="target-audience">
+      <header className="target-audience__block-title">Кому подойдет Битрикс24</header>
       <div className="target-audience__items">
         <div className="target-audience__item">
           <div className="target-audience__cap">
@@ -12,7 +12,7 @@ export default function TargetAudience() {
               от 1 до 15 сотрудников
             </p>
             <hr />
-            <div className="info-block">
+            <section className="info-block">
               <p className="info-block__title">Сайты</p>
               <ul className="info-block__list">
                 <li className="info-block__item">
@@ -21,8 +21,8 @@ export default function TargetAudience() {
                   для рекламы
                 </li>
               </ul>
-            </div>
-            <div className="info-block">
+            </section>
+            <section className="info-block">
               <p className="info-block__title">CRM</p>
               <ul className="info-block__list">
                 <li className="info-block__item">
@@ -39,7 +39,7 @@ export default function TargetAudience() {
                   клиентов
                 </li>
               </ul>
-            </div>
+            </section>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function TargetAudience() {
             <p className="target-audience__title">Средний бизнес</p>
             <p className="target-audience__description">от 15 до 100 сотрудников</p>
             <hr />
-            <div className="info-block">
+            <section className="info-block">
               <p className="info-block__title">Задачи и проекты</p>
               <ul className="info-block__list">
                 <li className="info-block__item">Контроль сроков</li>
@@ -59,8 +59,8 @@ export default function TargetAudience() {
                 </li>
                 <li className="info-block__item">Автоматизация работы</li>
               </ul>
-            </div>
-            <div className="info-block">
+            </section>
+            <section className="info-block">
               <p className="info-block__title">CRM</p>
               <ul className="info-block__list">
                 <li className="info-block__item">
@@ -73,7 +73,7 @@ export default function TargetAudience() {
                 <li className="info-block__item">Оценка качества работы</li>
                 <li className="info-block__item">Автоматизация работы</li>
               </ul>
-            </div>
+            </section>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ export default function TargetAudience() {
             <p className="target-audience__title">Крупный бизнес</p>
             <p className="target-audience__description">100 и более сотрудников</p>
             <hr />
-            <div className="info-block">
+            <section className="info-block">
               <p className="info-block__title">Коммуникациии</p>
               <ul className="info-block__list">
                 <li className="info-block__item">Единая среда для общения внутри компании<br /> (убрать разрыв в коммуникации)</li>
@@ -97,10 +97,10 @@ export default function TargetAudience() {
                 <li className="info-block__item">Автоматизация бизнес-процессов в компании</li>
                 <li className="info-block__item">Мобильность Безопасность Интеграция с 1С</li>
               </ul>
-            </div>
+            </section>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

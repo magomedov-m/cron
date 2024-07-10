@@ -4,40 +4,45 @@ import FeaturesImage from "../images/image 2.png";
 
 export default function FeaturesSection() {
   return (
-    <div className="system-overview-section">
-      <div className="system-hero-block">
-        <div className="system-hero-block__title">Возможности Битрикс24</div>
-        <div className="system-hero-block__description">
+    <section className="system-overview-section">
+      <header className="system-hero-block">
+        <h1 className="system-hero-block__title">Возможности Битрикс24</h1>
+        <p className="system-hero-block__description">
           Битрикс24 — это онлайн-сервис, в котором собраны все нужные
           инструменты для работы компании и управления бизнесом. <br />{" "}
           Перенесите в единое пространство и автоматизируйте все рабочие
           коммуникации, продажи, проекты и бизнес-процессы.
-        </div>
-      </div>
+        </p>
+      </header>
 
-      <div className="features-section">
-        <div className="features-section__description">
-          <p className="features-section__item" >Совместная работа</p>
+      <section className="features-section">
+        <dl className="features-section__description">
+          <dt className="features-section__item">Совместная работа</dt>
           <hr />
-          <p className="features-section__item">CRM</p>
+          <dt className="features-section__item">CRM</dt>
           <hr />
           <div className="features-section__task-desc">
-            <p className="features-section__item">Задачи и проекты</p>
-            <p className="features-section__text">
-              Организуйте эффективную работу над задачами и проектами в удобном
-              таск-трекере. Выбирайте привычную методику планирования для вашей
-              команды или работайте по Скрам. Делегируйте, управляйте сроками,
-              назначайте ответственных, создавайте шаблоны задач.
-            </p>
+            <dt className="features-section__item">Задачи и проекты</dt>
+            <dd>
+              <p className="features-section__text">
+                Организуйте эффективную работу над задачами и проектами в
+                удобном таск-трекере. Выбирайте привычную методику планирования
+                для вашей команды или работайте по Скрам. Делегируйте,
+                управляйте сроками, назначайте ответственных, создавайте шаблоны
+                задач.
+              </p>
+            </dd>
           </div>
           <hr />
-          <p className="features-section__item">Сайты и магазины</p>
+          <dt className="features-section__item">Сайты и магазины</dt>
           <hr />
-          <p className="features-section__item">Автоматизация</p>
+          <dt className="features-section__item">Автоматизация</dt>
           <hr />
-        </div>
-        <Image className="features-section__image" src={FeaturesImage} />
-      </div>
-    </div>
+        </dl>
+        <figure className="features-section__image">
+          <Image src={FeaturesImage} />
+        </figure>
+      </section>
+    </section>
   );
 }

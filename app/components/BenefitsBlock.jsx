@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BenefitsBlock() {
   return (
-    <div className='benefits-block'>
+    <section className='benefits-block'>
         <div className='reason-text'>
             <p>Причины пользоваться Битрикс24</p>
         </div>
@@ -13,6 +13,6 @@ export default function BenefitsBlock() {
             <div className='benefits-items__item'><p>Автоматизация всех<br /> процессов компании</p></div>
             <div className='benefits-items__item right'><p>Постановка поручений<br /> и планирование работы</p></div>
         </div>
-    </div>
+    </section>
   )
 }

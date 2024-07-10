@@ -1,15 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../images/Canvas.png";
-import Prices from '../images/image 1.png'
+import Prices from "../images/image 1.png";
 
 export default function Header() {
   return (
     <>
       <header className="header">
-        <Image className="logo" src={Logo} />
+        <figure className="logo">
+          <Image src={Logo} />
+        </figure>
 
-        <div className="media-block">
+        <section className="media-block">
           <div className="textButtonBox">
             <div className="media-block__text">
               <h1 className="presents-text">
@@ -25,8 +27,10 @@ export default function Header() {
             </div>
             <button className="button-order">Заказать услугу</button>
           </div>
-          <Image className="price-img" src={Prices} />
-        </div>
+          <figure className="price-img">
+            <Image src={Prices} />
+          </figure>
+        </section>
       </header>
     </>
   );

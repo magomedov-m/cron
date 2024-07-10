@@ -4,18 +4,19 @@
 }
 
 .container {
+  display: flex;
   width: 1440px;
-  height: 3543px;
-  border: 1px red solid;
+  height: auto;
 }
 
 .container-block {
   width: 1296px;
-  height: 3541px;
+  height: auto;
   background: #005893;
-  border: 1px rgb(21, 182, 6) solid;
+  padding: 0px 0 60px 0;
+  position: relative;
+  z-index: 2;
 }
-
 .header {
   width: 1188px;
   height: 480px;
@@ -39,7 +40,7 @@
   margin-top: 40px;
   width: 530px;
   height: 305px;
-  color: white;
+  color: #ffffff;
 }
 .presents-text {
   font-family: Gilroy;
@@ -91,7 +92,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 35px;
-  color: white;
+  color: #ffffff;
 }
 
 .benefits-items {
@@ -117,7 +118,7 @@
 }
 
 .benefits-items__item:hover {
-  background: #DBF7FF;
+  background: #dbf7ff;
   color: #005893;
 }
 
@@ -196,7 +197,7 @@
   margin: 55px auto;
   text-align: center;
 }
-
+/* до сюды */
 .target-audience__items {
   display: flex;
   justify-content: space-between;
@@ -288,6 +289,8 @@
   width: 1186px;
   height: 442px;
   margin: 0 auto;
+  margin-bottom: 72px;
+  z-index: 2;
 }
 
 .opportunities-block__item1 {
@@ -368,10 +371,148 @@
 }
 
 .opportunities-block__item2-image {
+  position: absolute;
   width: 611px;
   height: 305.5px;
   margin-top: 68px;
   margin-left: 533px;
+  z-index: 3;
+}
+
+.elipse {
+  width: 379px;
+  height: 379px;
+  border-radius: 100%;
+  background: rgb(72, 204, 247);
+  background: linear-gradient(
+    60deg,
+    rgba(72, 204, 247, 1) 0%,
+    rgba(251, 251, 251, 1) 100%
+  );
+  filter: blur(8px);
+}
+
+.elipse {
+  position: absolute;
+  margin-top: -130.02px;
+  margin-left: 905.89px;
+  z-index: 1;
 }
 
 /* ---------------------------------- */
+.dropdown-block {
+  background: rgb(64, 129, 174);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 129, 174, 1) 0%,
+    rgba(29, 107, 159, 1) 100%
+  );
+  width: 1186px;
+  max-height: 433px;
+  margin: 20px auto;
+  padding: 19px 0 15px 0;
+  border-radius: 12px;
+}
+
+.dropdown-block__elem {
+  display: flex;
+  justify-content: space-between;
+  width: 1091px;
+  height: 28px;
+  margin: 0px 50px 0px 40px;
+}
+
+.dropdown-block__menu {
+  width: 1022px;
+  height: 320px;
+  margin: 35px 0 30px 40px;
+}
+
+.dropdown-block__block-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.dropdown-block__title {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.dropdown-block__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+/* ---------------------- */
+
+.faqblock {
+  width: 1186px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.faqblock__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+/* ---------------------- */
+
+.nav {
+  width: 144px;
+  height: 1024px;
+}
+
+.nav__img {
+  margin: 48px 48px 290px 48px;
+}
+
+.nav__items {
+  width: 144px;
+  height: 252px;
+  margin-bottom: 130px;
+}
+
+.nav__item {
+  display: flex;
+  width: 144px;
+  height: 48px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.nav__btn {
+  width: 144px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  margin-bottom: 118px;
+  background: #0061d9;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav__icon-message {
+  width: 40px;
+  height: 40px;
+  margin-left: 52px;
+  padding: 7.42px 4.35px 7.42px 4.35px;
+}
+/* ------------------------------- */
