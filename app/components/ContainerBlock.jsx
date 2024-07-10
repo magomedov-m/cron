@@ -4,6 +4,7 @@ import BenefitsBlock from "./BenefitsBlock";
 import FeaturesSection from "./FeaturesSection";
 import TargetAudience from "./TargetAudience";
 import Opportunities from "./Opportunities";
+import Dropdown from "./Dropdown";
 
 export default function ContainerBlock() {
   return (
@@ -13,6 +14,7 @@ export default function ContainerBlock() {
       <FeaturesSection />
       <TargetAudience />
       <Opportunities />
+      <Dropdown />
     </div>
   );
 }
