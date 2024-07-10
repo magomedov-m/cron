@@ -1,10 +1,11 @@
 import React from 'react'
 import Dropdown from './Dropdown'
+import styles from '../styles/FAQBlock.module.css'
 
 export default function FAQBlock() {
   return (
-    <div className='faqblock'>
-        <div className='faqblock__title'>Часто задаваемые вопросы</div>
+    <div className={styles.faqblock}>
+        <div className={styles.faqblock__title}>Часто задаваемые вопросы</div>
         <Dropdown title='Как происходит процесс внедрения?' />
         <Dropdown title='Сколько времени займет процесс внедрения?' />
         <Dropdown title='Чем Битрик24 лучше своих конкурентов?' />

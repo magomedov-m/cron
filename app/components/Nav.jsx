@@ -2,22 +2,23 @@ import React from "react";
 import Image from "next/image";
 import CronImg from "../images/cron.png";
 import IconMessage from "../images/icon.png";
+import styles from '../styles/Nav.module.css';
 
 export default function Nav() {
   return (
-    <nav className="nav">
-      <figure className="nav__img">
+    <nav className={styles.nav}>
+      <figure className={styles.nav__img}>
         <Image src={CronImg} />
       </figure>
-      <div className="nav__items">
-        <div className="nav__item">О CRON</div>
-        <div className="nav__item">Кейсы</div>
-        <div className="nav__item">Услуги</div>
-        <div className="nav__item">Вакансии</div>
-        <div className="nav__item">Контакты</div>
+      <div className={styles.nav__items}>
+        <div className={styles.nav__item}>О CRON</div>
+        <div className={styles.nav__item}>Кейсы</div>
+        <div className={styles.nav__item}>Услуги</div>
+        <div className={styles.nav__item}>Вакансии</div>
+        <div className={styles.nav__item}>Контакты</div>
       </div>
-      <button className="nav__btn">Битрикс24</button>
-      <figure className="nav__icon-message">
+      <button className={styles.nav__btn}>Битрикс24</button>
+      <figure className={styles.nav__icon_message}>
         <Image src={IconMessage} />
       </figure>
     </nav>

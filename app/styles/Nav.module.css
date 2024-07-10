@@ -1,0 +1,44 @@
+.nav {
+  width: 144px;
+  height: 1024px;
+}
+
+.nav__img {
+  margin: 48px 48px 290px 48px;
+}
+
+.nav__items {
+  width: 144px;
+  height: 252px;
+  margin-bottom: 130px;
+}
+
+.nav__item {
+  display: flex;
+  width: 144px;
+  height: 48px;
+  align-items: center;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.nav__btn {
+  width: 144px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  margin-bottom: 118px;
+  background: #0061d9;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav__icon_message {
+  width: 40px;
+  height: 40px;
+  margin-left: 52px;
+  padding: 7.42px 4.35px 7.42px 4.35px;
+}
