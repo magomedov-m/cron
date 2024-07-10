@@ -1,0 +1,62 @@
+.header {
+  width: 1188px;
+  height: 480px;
+  margin: 55px auto 95px;
+}
+
+.logo {
+  width: 194px;
+  height: 34.5px;
+  margin-bottom: 60px;
+}
+
+.media_block {
+  width: 1186px;
+  height: 385px;
+  position: relative;
+}
+
+.textButtonBox {
+  position: absolute;
+  margin-top: 40px;
+  width: 530px;
+  height: 305px;
+  color: #ffffff;
+}
+.presents_text {
+  font-family: Gilroy;
+  width: 355px;
+  height: 132px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.media_block__text p {
+  width: 580px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.price_img {
+  position: absolute;
+  width: 652px;
+  height: 385px;
+  margin-left: 546px;
+}
+
+.button_order {
+  width: 219px;
+  height: 56px;
+  background: #1672ec;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 48px 16px 48px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}

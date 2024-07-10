@@ -1,0 +1,45 @@
+.opportunities_block {
+  border-radius: 12px;
+  position: relative;
+  background: #fbfbfb;
+  width: 1186px;
+  height: 442px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+  z-index: 1;
+}
+
+.opportunities_block__item1 {
+  position: absolute;
+  width: 434px;
+  height: 311px;
+  margin-top: 66px;
+  margin-left: 83px;
+  gap: 30px;
+}
+
+.opportunities_block__item1_header_title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.opportunities_block__item1_header_text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #1919195c;
+  margin-bottom: 30px;
+}
+
+.opportunities_block__item2_image {
+  position: absolute;
+  width: 611px;
+  height: 305.5px;
+  margin-top: 68px;
+  margin-left: 533px;
+  z-index: 2;
+}
