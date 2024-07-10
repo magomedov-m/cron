@@ -193,10 +193,10 @@
 .target-audience {
   width: 1186px;
   height: 518px;
-  margin: 55px auto;
+  margin: 55px auto 105px auto;
   text-align: center;
 }
-/* до сюды */
+
 .target-audience__items {
   display: flex;
   justify-content: space-between;
@@ -489,7 +489,7 @@
   width: 144px;
   height: 48px;
   align-items: center;
-  justify-content: space-around;
+  margin-left: 24px;;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
