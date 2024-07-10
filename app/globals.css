@@ -15,7 +15,6 @@
   background: #005893;
   padding: 0px 0 60px 0;
   position: relative;
-  z-index: 2;
 }
 .header {
   width: 1188px;
@@ -290,7 +289,7 @@
   height: 442px;
   margin: 0 auto;
   margin-bottom: 72px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .opportunities-block__item1 {
@@ -376,10 +375,10 @@
   height: 305.5px;
   margin-top: 68px;
   margin-left: 533px;
-  z-index: 3;
+  z-index: 2;
 }
 
-.elipse {
+.circle {
   width: 379px;
   height: 379px;
   border-radius: 100%;
@@ -392,7 +391,7 @@
   filter: blur(8px);
 }
 
-.elipse {
+.circle {
   position: absolute;
   margin-top: -130.02px;
   margin-left: 905.89px;
@@ -494,6 +493,14 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.dropdown-block__button {
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 4.7px 2.8px 7.1px 2.8px;
+  background: rgba(29, 107, 159, 1) 100%;
 }
 
 .nav__btn {

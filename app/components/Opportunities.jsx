@@ -25,7 +25,7 @@ export default function Opportunities() {
         <figure class="opportunities-block__item2-image">
           <Image src={CalendarImage} alt="Изображение" />
         </figure>
-        {/* <Elipse class='first-elipse' /> */}
+        {/* <Elipse /> */}
       </aside>
     </section>
   );
