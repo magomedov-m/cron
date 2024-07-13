@@ -2,11 +2,11 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import DropBtn from "../images/Vector.png";
+import DropBtn from "../images/arrow.svg";
 import styles from '../styles/Dropdown.module.css';
 
 export default function Dropdown(props) {
-  const container = useRef();
+  const container = useRef(); 
   const [dropdownState, setDropdownState] = useState({ open: false });
   const handleDropdownClick = () => {
     setDropdownState({ open: !dropdownState.open });
@@ -31,7 +31,7 @@ export default function Dropdown(props) {
           className={styles.dropdown_block__button}
           onClick={handleDropdownClick}
         >
-          <Image className={styles.ropdown_block_btn} src={DropBtn} />
+          <Image className={styles.dropdown_block_btn} src={DropBtn} />
         </button>
       </header>
       {dropdownState.open && (

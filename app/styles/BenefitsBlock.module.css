@@ -7,7 +7,6 @@
 .reason_text {
   font-size: 28px;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 35px;
   color: #ffffff;
 }
@@ -16,6 +15,8 @@
   display: flex;
   width: 1186px;
   height: 100px;
+  border-radius: 15px;
+  background: linear-gradient(91.22deg, rgba(255, 255, 255, 0.25) 38.73%, rgba(255, 255, 255, 0.095) 77.51%);
 }
 .left {
   border-radius: 15px 0 0 15px;
@@ -28,16 +29,15 @@
   display: flex;
   width: 296px;
   align-items: center;
-  border: 1px solid #ffffff63;
-  background: #ffffff63;
+  background: #ffffff00;
   color: #ffffff;
   transition: 0.6s;
 }
 
-.benefits_items__item:hover {
+/* .benefits_items__item:hover {
   background: #dbf7ff;
   color: #005893;
-}
+} */
 
 .benefits_items__item p {
   text-align: center;

@@ -1,7 +1,7 @@
 import React from "react";
 import Registration from "./Registration";
 import Image from "next/image";
-import CalendarImage from "../images/sloty.png";
+import CalendarImage from "../images/image 3.svg";
 import Elipse from "./Circle";
 import styles from '../styles/Opportunities.module.css';
 

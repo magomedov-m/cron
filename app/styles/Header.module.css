@@ -24,9 +24,8 @@
   color: #ffffff;
 }
 .presents_text {
-  font-family: Gilroy;
-  width: 355px;
-  height: 132px;
+  width: 375px;
+  height: auto;
   font-size: 36px;
   font-weight: 700;
   line-height: 44px;
@@ -51,12 +50,12 @@
 .button_order {
   width: 219px;
   height: 56px;
-  background: #1672ec;
+  background: #2FC6F6;
   border: none;
   border-radius: 4px;
-  padding: 16px 48px 16px 48px;
+  padding: 16px 43px 16px 43px;
   color: white;
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 }

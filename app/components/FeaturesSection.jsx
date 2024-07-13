@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import FeaturesImage from "../images/image 2.png";
+import FeaturesImage from "../images/image 2.svg";
 import styles from '../styles/FeatureSection.module.css';
 
 export default function FeaturesSection() {

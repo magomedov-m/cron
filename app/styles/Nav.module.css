@@ -37,8 +37,13 @@
 }
 
 .nav__icon_message {
-  width: 40px;
-  height: 40px;
+  width: 31px;
+  height: 25px;
   margin-left: 52px;
   padding: 7.42px 4.35px 7.42px 4.35px;
+}
+
+.cron_image {
+  width: 48px;
+  height: 48px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../images/Canvas.png";
-import Prices from "../images/image 1.png";
+import Logo from "../images/Canvas.svg";
+import Prices from "../images/image 1.svg";
 import styles from '../styles/Header.module.css';
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
     <>
       <header className={styles.header}>
         <figure className={styles.logo}>
-          <Image src={Logo} />
+          <Image src={Logo} alt="логотип" />
         </figure>
 
         <section className={styles.media_block}>
