@@ -17,9 +17,5 @@
   padding: 0px 0 60px 0;
   position: relative;
   z-index: 3;
+  background: radial-gradient(circle 320px at 60% 9%, rgba(0, 0, 0, 0.473), #005893);
 }
-
-
-
-
-

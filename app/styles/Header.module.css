@@ -2,6 +2,7 @@
   width: 1188px;
   height: 480px;
   margin: 55px auto 95px;
+  height: 100%;
 }
 
 .logo {
@@ -23,6 +24,7 @@
   height: 305px;
   color: #ffffff;
 }
+
 .presents_text {
   width: 375px;
   height: auto;
@@ -32,6 +34,7 @@
   margin-bottom: 20px;
   text-align: left;
 }
+
 .media_block__text p {
   width: 580px;
   height: 48px;
