@@ -19,9 +19,7 @@
 }
 
 .circle2 {
-  top: 258.56px;
-  left: 554.51px;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 258.56px;
+  margin-left: 580px;
   transform: rotate(18.15deg);
 }
