@@ -5,6 +5,7 @@ import FeaturesSection from "./FeaturesSection";
 import TargetAudience from "./TargetAudience";
 import Opportunities from "./Opportunities";
 import Dropdown from "./Dropdown";
+import Circle from "./Circle";
 import FAQBlock from "./FAQBlock";
 import Nav from "./Nav";
 
@@ -32,6 +33,7 @@ export default function ContainerBlock() {
           <FAQBlock />
         </section>
       </main>
+      
     </>
   );
 }

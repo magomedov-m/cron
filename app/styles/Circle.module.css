@@ -1,16 +1,15 @@
 .circle {
-  position: absolute;
-  margin-top: -130.02px;
+  position: absolute; 
+  margin-top: -600px;
   margin-left: 905.89px;
-  z-index: 1;
   width: 379px;
   height: 379px;
   border-radius: 100%;
-  background: rgb(72, 204, 247);
   background: linear-gradient(
     60deg,
-    rgba(72, 204, 247, 1) 0%,
-    rgba(251, 251, 251, 1) 100%
+    rgba(47, 198, 246, 1) 0%,
+    rgba(247, 247, 247, 1) 100%
   );
   filter: blur(8px);
+  z-index: 4;
 }

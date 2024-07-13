@@ -4,9 +4,11 @@ import Image from "next/image";
 import CalendarImage from "../images/image 3.svg";
 import Elipse from "./Circle";
 import styles from '../styles/Opportunities.module.css';
+import Circle from "./Circle";
 
 export default function Opportunities() {
   return (
+    <>
     <section class={styles.opportunities_block}>
       <article class={styles.opportunities_block__item1}>
         <header class={styles.opportunities_block__item1_header}>
@@ -26,8 +28,9 @@ export default function Opportunities() {
         <figure class={styles.opportunities_block__item2_image}>
           <Image src={CalendarImage} alt="Изображение" />
         </figure>
-        {/* <Elipse /> */}
       </aside>
     </section>
+    <Circle />
+    </>
   );
 }
