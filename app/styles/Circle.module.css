@@ -1,7 +1,6 @@
 .circle {
-  position: absolute; 
-  margin-top: -600px;
-  margin-left: 905.89px;
+  position: absolute;
+  transform: rotate(59.37deg);
   width: 379px;
   height: 379px;
   border-radius: 100%;
@@ -12,4 +11,17 @@
   );
   filter: blur(8px);
   z-index: 4;
+}
+
+.circle1 {
+  margin-top: -135px;
+  margin-left: 900px;
+}
+
+.circle2 {
+  top: 258.56px;
+  left: 554.51px;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(18.15deg);
 }
