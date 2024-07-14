@@ -36,7 +36,7 @@
   );
   border-radius: 18px;
   width: 354px;
-  height: 442px;
+  height: 420px;
 }
 
 .target_audience__cap {
@@ -46,7 +46,7 @@
 }
 
 .target_audience__cap hr {
-  border: 1px #ffffff4d solid;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   margin: 21px 0 30px 0;
 }
 
@@ -68,7 +68,7 @@
   font-weight: 500;
   line-height: 20px;
   text-align: left;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .target_audience__block_title {

@@ -48,31 +48,31 @@ export default function Dropdown(props) {
       </header>
       {dropdownState.open && (
         <div className={styles.dropdown_block__menu}>
-          <p className={styles.dropdown_block__title}>
+          <span className={styles.dropdown_block__title}>
             Контроль и рекомендации:
-          </p>
+          </span>
           <p className={styles.dropdown_block__text}>
             Битрикс24 позволяет полноценно контролировать все каналы общения с
             клиентами и предоставляет рекомендации к действиям, что способствует
             <br /> эффективной работе.
           </p>
-          <p className={styles.dropdown_block__title}>
+          <span className={styles.dropdown_block__title}>
             Автоматизация процессов:
-          </p>
+          </span>
           <p className={styles.dropdown_block__text}>
             Система автоматизирует множество бизнес-процессов, включая
             реализацию продукции. Это значительно повышает эффективность работы.
           </p>
-          <p className={styles.dropdown_block__title}>Удобный интерфейс:</p>
+          <span className={styles.dropdown_block__title}>Удобный интерфейс:</span>
           <p className={styles.dropdown_block__text}>
             Битрикс24 предоставляет удобный и комфортный интерфейс, который даже
             тем, кто не имеет опыт работы с 1С, будет понятен. Все настройки и
             <br />
             документы расположены логично.
           </p>
-          <p className={styles.dropdown_block__title}>
+          <span className={styles.dropdown_block__title}>
             Индивидуальная настройка:
-          </p>
+          </span>
           <p className={styles.dropdown_block__text}>
             Возможность настроить систему под свои потребности позволяет
             максимально адаптировать ее к специфике вашего бизнеса.

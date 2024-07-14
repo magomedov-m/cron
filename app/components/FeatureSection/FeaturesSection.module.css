@@ -44,7 +44,7 @@
 }
 
 .features_section__description hr {
-  border: 1px solid #ffffff4d;
+  border: 1px solid rgba(255, 255, 255, 0.3)
 }
 
 .features_section__item {
@@ -52,7 +52,7 @@
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7);
   margin: 15px 0;
 }
 
@@ -68,4 +68,8 @@
 .features_section__image {
   margin-top: -366px;
   margin-left: 583px;
+}
+
+.task {
+  color: #ffffff;
 }

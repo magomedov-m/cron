@@ -59,7 +59,6 @@ export default function TargetAudience() {
                 <li className={styles.info_block__item}>
                   Работа с внешними подрядчиками
                 </li>
-                <li className={styles.info_block__item}>Автоматизация работы</li>
               </ul>
             </section>
             <section className={styles.info_block}>

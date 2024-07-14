@@ -53,10 +53,10 @@
 
 .dropdown_block__title {
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 20px;
   text-align: left;
-  color: #ffffff;
+  color:rgba(255, 255, 255, 1);
 }
 
 .dropdown_block__text {
@@ -65,7 +65,7 @@
   font-weight: 500;
   line-height: 20px;
   text-align: left;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 15px;
 }
 

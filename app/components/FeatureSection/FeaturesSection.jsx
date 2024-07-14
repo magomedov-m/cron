@@ -24,7 +24,7 @@ export default function FeaturesSection() {
           <dt className={styles.features_section__item}>CRM</dt>
           <hr />
           <div className={styles.features_section__task_desc}>
-            <dt className={styles.features_section__item}>Задачи и проекты</dt>
+            <dt className={`${styles.features_section__item} ${styles.task}`}>Задачи и проекты</dt>
             <dd>
               <p className={styles.features_section__text}>
                 Организуйте эффективную работу над задачами и проектами в
