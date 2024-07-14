@@ -22,7 +22,7 @@
     rgba(29, 107, 159, 1) 100%
   );
   width: 1186px;
-  max-height: 453px;
+  max-height: 500px;
   margin: 20px auto;
   padding: 19px 0 15px 0;
   border-radius: 12px;
@@ -39,7 +39,7 @@
 
 .dropdown_block__menu {
   width: 1022px;
-  height: 320px;
+  height: auto;
   margin: 35px 0 30px 40px;
 }
 
@@ -60,6 +60,7 @@
 }
 
 .dropdown_block__text {
+  width: 60%;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
