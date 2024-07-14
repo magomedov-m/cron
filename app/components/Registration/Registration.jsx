@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../styles/Registration.module.css';
+import styles from './Registration.module.css';
 
 export default function Registration() {
   return (
@@ -22,7 +22,7 @@ export default function Registration() {
         <input
           className={styles.registratioin__item_form_input_email}
           type="email"
-          placeholder="Электронная почта"
+          placeholder="Эл. почта"
         />
       </label>
       <button className={styles.registratioin__item_form_button}>Отправить</button>

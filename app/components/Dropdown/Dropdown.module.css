@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts//Gilroy-Extrabold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Light.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 .dropdown_block {
   background: rgb(64, 129, 174);
   background: linear-gradient(
@@ -6,10 +22,11 @@
     rgba(29, 107, 159, 1) 100%
   );
   width: 1186px;
-  max-height: 433px;
+  max-height: 453px;
   margin: 20px auto;
   padding: 19px 0 15px 0;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .dropdown_block__elem {
@@ -56,5 +73,11 @@
   width: 24px;
   height: 24px;
   padding: 4.7px 2.8px 7.1px 2.8px;
-  background: rgba(29, 107, 159, 1) 100%;
+  fill: rgba(255, 255, 255, 0.4);
+  transition: 0.5s;
+}
+
+
+.dropdown_block__button:hover {
+  fill: rgba(255, 255, 255, 0.8);
 }

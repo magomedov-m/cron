@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import CronImg from "../images/cron.gif";
-import IconMessage from "../images/icon.svg";
-import styles from '../styles/Nav.module.css';
+import CronImg from "../../images/cron.gif";
+import IconMessage from "../../images/icon.svg";
+import styles from './Nav.module.css';
 
 export default function Nav() {
   return (

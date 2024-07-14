@@ -1,13 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import BenefitsBlock from "./BenefitsBlock";
-import FeaturesSection from "./FeaturesSection";
-import TargetAudience from "./TargetAudience";
-import Opportunities from "./Opportunities";
-import Dropdown from "./Dropdown";
-import Circle from "./Circle1";
-import FAQBlock from "./FAQBlock";
-import Nav from "./Nav";
+import Header from "./Header/Header";
+import BenefitsBlock from "./BenefitsBlock/BenefitsBlock";
+import FeaturesSection from "./FeatureSection/FeaturesSection";
+import TargetAudience from "./TargetAudience/TargetAudience";
+import Opportunities from "./Opportunities/Opportunities";
+import FAQBlock from "./FAQBlock/FAQBlock";
+import Nav from "./Nav/Nav";
 
 export default function ContainerBlock() {
   return (

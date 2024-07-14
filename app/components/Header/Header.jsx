@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../images/Canvas.svg";
-import Prices from "../images/image 1.svg";
-import styles from '../styles/Header.module.css';
+import Logo from "../../images/Canvas.svg";
+import Prices from "../../images/image 1.svg";
+import styles from './Header.module.css';
+import FirstSvetch from "../Svetches/FirstSvetch";
 
 export default function Header() {
   return (
@@ -28,10 +29,11 @@ export default function Header() {
             </div>
             <button className={styles.button_order}>Заказать услугу</button>
           </div>
-          <figure className={styles.price_img}>
-            <Image src={Prices} />
+          <figure className={styles.price_img_block}>
+            <Image src={Prices}/>
           </figure>
         </section>
+        <FirstSvetch />
       </header>
     </>
   );

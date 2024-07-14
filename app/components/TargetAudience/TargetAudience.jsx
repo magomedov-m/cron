@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../styles/TargetAudience.module.css';
+import styles from './TargetAudience.module.css';
 
 
 export default function TargetAudience() {

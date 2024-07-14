@@ -1,7 +1,7 @@
 .benefits_block {
   width: 1186px;
   height: 165px;
-  margin: 55px auto;
+  margin: 0 auto;
 }
 
 .reason_text {
@@ -33,11 +33,6 @@
   color: #ffffff;
   transition: 0.6s;
 }
-
-/* .benefits_items__item:hover {
-  background: #dbf7ff;
-  color: #005893;
-} */
 
 .benefits_items__item p {
   text-align: center;

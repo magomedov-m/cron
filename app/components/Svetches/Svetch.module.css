@@ -1,0 +1,15 @@
+.svetch {
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle at 50% 50%,
+      #ffffff2c 80%,
+      #fff 0%,
+      rgba(255, 255, 255, 0.075) 1%
+    );
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    filter: blur(70px);
+    z-index: -1;
+  }

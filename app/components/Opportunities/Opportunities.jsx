@@ -1,11 +1,10 @@
 import React from "react";
-import Registration from "./Registration";
+import Registration from "../Registration/Registration";
 import Image from "next/image";
-import CalendarImage from "../images/image 3.svg";
-import styles from "../styles/Opportunities.module.css";
-import Circle1 from "./Circle1";
-import Circle2 from "./Circle2";
-import circleStyle from "../styles/Circle.module.css";
+import CalendarImage from "../../images/image 3.svg";
+import styles from "./Opportunities.module.css";
+import Circle1 from "../Circle/Circle1";
+import Circle2 from "../Circle/Circle2";
 
 export default function Opportunities() {
   return (

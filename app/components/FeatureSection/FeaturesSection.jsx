@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import FeaturesImage from "../images/image 2.svg";
-import styles from '../styles/FeatureSection.module.css';
+import FeaturesImage from "../../images/image 2.svg";
+import styles from './FeaturesSection.module.css';
+import SecondSvetch from "../Svetches/SecondSvetch";
 
 export default function FeaturesSection() {
   return (
@@ -44,6 +45,7 @@ export default function FeaturesSection() {
           <Image src={FeaturesImage} />
         </figure>
       </section>
+      <SecondSvetch />
     </section>
   );
 }

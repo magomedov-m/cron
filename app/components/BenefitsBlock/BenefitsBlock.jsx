@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/BenefitsBlock.module.css'
+import styles from '../BenefitsBlock/BenefitsBlock.module.css'
 
 export default function BenefitsBlock() {
   return (

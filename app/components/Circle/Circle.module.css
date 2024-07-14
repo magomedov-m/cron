@@ -1,6 +1,5 @@
 .circle {
   position: absolute;
-  transform: rotate(59.37deg);
   width: 379px;
   height: 379px;
   border-radius: 100%;
@@ -16,6 +15,7 @@
 .circle1 {
   margin-top: -135px;
   margin-left: 900px;
+  transform: rotate(59.37deg);
 }
 
 .circle2 {

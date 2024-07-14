@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts//Gilroy-Extrabold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Light.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 .system_overview_section {
   margin: 55px auto;
   width: 1186px;
   height: 547px;
   margin-bottom: 100px;
+  position: relative;
 }
 
 .system_hero_block__title {
